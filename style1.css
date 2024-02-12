@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: cornflowerblue;
+     */
+     background-image: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/wood-working-repetitive-seamless-texture-free-photo.png?w=600&quality=80');
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.shit{
+    border: 2px solid ;
+    border-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-radius: 15px;
+    background-color: burlywood;
+    
+}
+.title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    /* background-color: greenyellow; */
+}
+h1{
+    margin-bottom: 0;
+    padding: 0;
+}
+p{
+    margin-top: 0;
+}
+input{
+    border-radius: 15px;
+    padding: 10;
+}
+.items{
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+select{
+    padding: 10;
+}
+button{
+    padding: 20px;
+    border-radius: 19px;
+}
