@@ -3,7 +3,7 @@
     border: 0;
 }
 
-body{
+.body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,4 +57,41 @@ select{
 button{
     padding: 20px;
     border-radius: 19px;
+}
+.nav {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 15px;
+    
+}
+
+ul {
+    /* display: flex; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* flex-direction: row; */
+}
+
+li {
+    padding: 5px;
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #111;
+}
+.left{
+    color: black;
 }
