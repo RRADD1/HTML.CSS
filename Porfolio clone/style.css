@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(bgg.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    /* Remove z-index: -1; */
+}
+
+.navBar {
+    height: 100vh;
+    width: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.myLogo img {
+    height: 76px;
+    width: 70px;
+    filter: grayscale(100%);
+}
+/* .protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+
+.socials ul {
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 15vh;
+    gap: 4px;
+}
+
+.socials ul img {
+    height: 16px;
+    width: 15px;
+    filter: grayscale(100%);
+}
+
+.navElements ul {
+    list-style-type: none;
+    padding: 13px;
+}
+
+.navElements ul li {
+    padding: 4px 2px 6px 2px;
+    font-size: 14px;
+    border: 1px solid rgb(27, 26, 26);
+    border-radius: 2px;
+    margin: 0px -12px 0px -17px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: rgb(90, 86, 86);
+    cursor: pointer;
+}
+
+.navElements ul li:hover {
+    transform: scale(1.1);
+    background-color: rgba(80, 68, 68, 0.2);
+}
+
+svg {
+    display: block;
+    padding: 5px;
+    color: white;
+    height: 12px;
+}
+
+.container {
+    z-index: 1;
+    position: relative;
+
+    display: block;
+    padding-top: 108px;
+    padding-left: 58px;
+}
+
+.container h1 {
+    font-size: 43px;
+    margin-bottom: 2px; 
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+}
+
+.container p {
+    font-size: 12px;
+    margin-bottom: 24px; 
+    color: rgb(148, 143, 143);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container button {
+    margin-top: 17px;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: transparent;
+    border: 2px solid rgb(62, 226, 158);
+    color:rgb(62, 226, 158) ;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 15px;
+}
+
+.container button:hover {
+
+transform: scale(1.1);
+  
+}
